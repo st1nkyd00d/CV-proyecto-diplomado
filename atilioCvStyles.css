@@ -85,3 +85,10 @@ header {
 .key-points-list li {
     margin: 5px 0px;
 }
+
+
+.educational-section {
+    width: 70%;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+}
