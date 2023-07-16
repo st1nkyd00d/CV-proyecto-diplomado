@@ -54,6 +54,7 @@ header {
 }
 
 .experience-section {
+    width: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -89,6 +90,12 @@ header {
 
 .educational-section {
     width: 70%;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+}
+
+.skills-section {
+    width: 20%;
     text-align: justify;
     margin: 0px 0px 0px 50px;
 }
