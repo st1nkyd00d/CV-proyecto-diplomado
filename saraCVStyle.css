@@ -1,0 +1,28 @@
+.pagina-principal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagina-principal button{
+    border-style: none;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #ebcfb2;
+    border-radius: 10px;
+    border: black;
+    border-style: groove;
+}
+
+.pagina-principal button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Old Standard TT', serif;
+}
+
+.pagina-principal h1{
+    text-align: center;
+}
