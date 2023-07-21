@@ -55,10 +55,17 @@
     font-size: 20px;
 }
 
-.container{
+.container1{
     display: flex;
     flex-direction: column;
-    margin: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     background-color: #fffbf5;
     padding: 30px;
     border: black;
