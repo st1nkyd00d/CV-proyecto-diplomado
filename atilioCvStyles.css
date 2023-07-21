@@ -1,0 +1,153 @@
+* {
+    font-family: 'Old Standard TT', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #ebcfb2;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.whole-cv {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fffbf5;
+    border: 4px solid black;
+}
+
+.first-row-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.second-row-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+
+.name-section {
+    width: 70%;
+    margin: 0px 0px 0px 20px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.name-section h2 {
+    font-size: 40px;
+    color: #8A663F;
+}
+
+
+.name-section h3 {
+    margin-top: 5px;
+    color: #8A663F;
+}
+
+
+.name-section p {
+    margin-top: 10px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 0px 0px 100px;
+    padding: 5px;
+}
+
+.contact-section a {
+    margin: 4px 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.experience-section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-section h2 {
+    color: #8A663F;
+}
+
+.work-section {
+    width: 70%;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+}
+
+.position-held{
+    margin: 5px 0px 50px 0px;
+}
+
+.position-and-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 20px 0px;
+}
+
+.position-and-description h3 {
+    margin-bottom: 5px;
+}
+
+.position-and-description p {
+    margin: 1px 0px;
+}
+
+.key-points-list li {
+    margin: 5px 0px;
+}
+
+
+.educational-section {
+    width: 70%;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+}
+
+.skills-section {
+    width: 30%;
+    text-align: justify;
+    margin: 0px 0px 0px 30px;
+}
+
+.skills-section h2 {
+    color: #8A663F;;
+    margin-bottom: 20px;
+}
+
+.skills-section li {
+    text-align: start;
+    font-size: 20px;
+}

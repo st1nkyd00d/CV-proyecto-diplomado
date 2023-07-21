@@ -1,0 +1,117 @@
+*{
+    font-family: 'Old Standard TT', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina-principal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagina-principal button{
+    border-style: none;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #ebcfb2;
+    border-radius: 10px;
+    border: black;
+    border-style: groove;
+}
+
+.pagina-principal button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Old Standard TT', serif;
+}
+
+.pagina-principal h1{
+    text-align: center;
+}
+
+
+.nav{
+    display: flex;
+    height: 80px;
+    justify-content: end;
+    align-items: center;
+    background-color: #ebcfb2;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+.nav nav ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #fffbf5;
+    padding: 30px;
+    border: black;
+    border-style: groove;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.section1 h1{
+    font-size: 40px;
+    color: #8A663F;
+}
+
+.section1 section{
+    text-align: end;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section2{
+    font-size: 20px;
+}
+
+h1{
+    color: #8A663F;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ul{
+    font-size: 18px;
+    margin: 20px;
+
+}
+
+
