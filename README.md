@@ -21,7 +21,7 @@ Para ver el proyecto en tu máquina local, sigue estos pasos:
   2.Cambiar a la rama main:
     git checkout main
     
-  3.Visualizar los CV: Ahora, simplemente abre los archivos HTML de los CV en tu navegador para ver los resultados. 
+  3.Visualizar los CV: Ahora, simplemente abre los archivos HTML de los CV en tu navegador para ver los resultados. Se recomienda abrir el archivo index, y desde ahí, navegar hacia los CV correspondientes.
 
 # Contribuciones
 
