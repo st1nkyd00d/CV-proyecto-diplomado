@@ -1,8 +1,10 @@
 * {
+    font-family: 'Old Standard TT', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 header {
     display: flex;
@@ -14,11 +16,20 @@ header {
     font-size: 20px;
 }
 
+p {
+    font-size: 18px;
+}
+
+
 .whole-cv {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     height: 100%;
     background-color: #fffbf5;
+    border: 4px solid black;
 }
 
 .first-row-section {
@@ -39,24 +50,48 @@ header {
     width: 70%;
     margin: 0px 0px 0px 20px;
     padding: 5px;
+    text-align: justify;
 }
 
-.name-section {
-    text-align: justify;
+.name-section h2 {
+    font-size: 40px;
+    color: #8A663F;
+}
+
+
+.name-section h3 {
+    margin-top: 5px;
+    color: #8A663F;
+}
+
+
+.name-section p {
+    margin-top: 10px;
 }
 
 .contact-section {
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 100px;
     padding: 5px;
+}
+
+.contact-section a {
+    margin: 4px 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .experience-section {
     width: 90%;
     display: flex;
     flex-direction: column;
+}
+
+.experience-section h2 {
+    color: #8A663F;
 }
 
 .work-section {
@@ -95,7 +130,17 @@ header {
 }
 
 .skills-section {
-    width: 20%;
+    width: 30%;
     text-align: justify;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 30px;
+}
+
+.skills-section h2 {
+    color: #8A663F;;
+    margin-bottom: 20px;
+}
+
+.skills-section li {
+    text-align: start;
+    font-size: 20px;
 }
